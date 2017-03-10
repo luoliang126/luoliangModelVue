@@ -50,7 +50,7 @@ app.use(express.static('node_modules/public'));
 ////关闭连接
 //connection.end();
 
-var server = app.listen(8081, function () {
+var server = app.listen(8082, function () {
     var host = server.address().address
     var port = server.address().port
     console.log("app start");
